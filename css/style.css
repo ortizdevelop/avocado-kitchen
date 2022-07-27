@@ -235,7 +235,7 @@ body .contact {
   left: 202px;
   top: 1017px;
   background-color: #2A3D45;
-  border: 1px solid red;
+  border: 1px solid #2A3D45;
 }
 
 .home-content-head__subscribe p {
@@ -327,7 +327,6 @@ body .contact {
 
 .home-content-main__row {
   text-align: center;
-  border: 1px solid pink;
 }
 
 .home-content-main__subtitle {
@@ -368,4 +367,46 @@ body .contact {
 
 .home-content-main__button:active span {
   color: #2A3D45;
+}
+
+.home-content-main-bot {
+  margin-top: 144px;
+}
+
+.home-content-main-bot__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-content-main-bot__title {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
+  padding-top: 90px;
+  font-size: 48px;
+  text-align: right;
+  color: #2a3d45;
+  height: 317px;
+  width: 600px;
+  left: 199px;
+  top: 2857px;
+  font-weight: 800;
+  background: url("/assets/img/home/home-content-bottom/text-bg.png") 0px 25px no-repeat;
+}
+
+.home-content-main-bot__subtitle {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  margin-left: 72px;
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 46px;
+  color: #2a3d45;
+  height: 335px;
+  width: 876px;
+  left: 871px;
+  top: 2808px;
 }

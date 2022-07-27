@@ -249,7 +249,7 @@ body{
     left: 202px;
     top: 1017px;
     background-color: $color2;    
-    border: $border1;
+    border: 1px solid $color2;
 
     p{
       font-size: 48px;
@@ -310,7 +310,6 @@ body{
 
   &__row {
     text-align: center;
-    border: $border4;
   }
 
   &__image {
@@ -352,6 +351,42 @@ body{
       }
       transition: 0.3s;
     }
+  }
+}
+
+.home-content-main-bot {
+  margin-top: 144px;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    transform: translateY(-90px);
+    padding-top: 90px;
+    font-size: 48px;
+    text-align: right;
+    color: #2a3d45;
+    height: 317px;
+    width: 600px;
+    left: 199px;
+    top: 2857px;
+    font-weight: 800;
+    background: url('/assets/img/home/home-content-bottom/text-bg.png')0px 25px no-repeat;  
+  }
+
+  &__subtitle {
+    transform: translateY(-50px);
+    margin-left: 72px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    line-height: 46px;
+    color: #2a3d45;
+    height: 335px;
+    width: 876px;
+    left: 871px;
+    top: 2808px;    
   }
 }
 
