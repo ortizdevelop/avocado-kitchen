@@ -119,6 +119,11 @@ body{
   }
 }
 
+.content{
+  margin-left: 148px;
+  margin-right: 204px;
+}
+
 .navigation-menu {
   margin-top: 73px; 
 
@@ -214,3 +219,140 @@ body{
     }
   }
 }
+
+.home-content-head {
+
+  &__row {
+  }
+
+  &__title {
+    font-size: 48px;
+    padding-top: 80px;
+    text-align: right;
+    color: #2a3d45;
+    font-weight: 800;
+    height: 317px;
+    width: 600px;
+    left: 476px;
+    top: 312px;
+    transform: translate(280px,200px);
+    background: url('/assets/img/home/home-content-head/text-bg.png')80px 0px no-repeat;
+  }
+
+  &__images {
+    transform: translateY(-120px);
+  }
+
+  &__subscribe {
+    height: 344px;
+    width: 1514px;
+    left: 202px;
+    top: 1017px;
+    background-color: $color2;    
+    border: $border1;
+
+    p{
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      color: #93c8aa;
+    }
+  }
+
+  &__subscribe-title {
+    margin-top: 98px;
+    margin-bottom: 26px;
+  }
+
+  &__subscribe-mail {
+    display: flex;
+    justify-content: center;
+
+      .mail-input{
+        width: 646px;
+        height: 75px;
+        text-align: right;
+        align-items: center;
+        background-color: #ecede9;
+        font-size: 32px;
+        font-weight: 600;
+        color: $color2;
+        padding-right: 19px;
+        
+        &::placeholder{
+          font-size: 32px;
+          text-align: right;
+          color: rgba(0, 0, 0, 0.4);
+          font-weight: 600;
+          padding-right: 19px;
+        }
+      }
+
+      .btn{
+        transform: translate(-3px, 7px);
+        width: 311px;
+        height: 75px;
+        background-color: #ee9344;
+        text-align: center;
+        font-size: 48px;
+        color: #2a3d45;
+        font-weight: 800;
+
+        &:active{
+          background-color: $color3;
+        }
+    }
+  }
+}
+
+.home-content-main {
+  margin-top: 157px;
+
+  &__row {
+    text-align: center;
+    border: $border4;
+  }
+
+  &__image {
+  }
+
+  &__subtitle {
+    margin-top: 66px;
+    margin-bottom: 129px;
+    font-size: 28px;
+    text-align: center;
+    color: #2a3d45;
+    height: 245px;
+    width: 1006px;
+    margin-left: 250px;
+  }
+
+  &__button {
+    margin-left: 440px;
+    width: 650px;
+    height: 111px;
+    padding-top: 35px;
+
+    span{
+      font-size: 48px;
+      color: $color4;
+      font-weight: 800;
+    }
+
+    &:hover{
+      background-color: $color2;
+      transition: 0.3s;
+    }
+
+    &:active{
+      background-color: $color3;
+
+      span{
+        color: $color2;
+      }
+      transition: 0.3s;
+    }
+  }
+}
+
+
