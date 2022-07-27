@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  background-color: #ECEDE9;
+  font-family: 'Dosis', sans-serif;
+}
+
+body .home {
+  height: 5400px;
+  width: 1920px;
+  left: -638px;
+  top: -356px;
+}
+
+body .about {
+  height: 3809px;
+  width: 1920px;
+  left: 1487px;
+  top: -353px;
+}
+
+body .recepies {
+  height: 6436px;
+  width: 1920px;
+  left: 3612px;
+  top: -356px;
+}
+
+body .contact {
+  height: 3105px;
+  width: 1920px;
+  left: 5737px;
+  top: -353px;
+}
+
+.navigation-menu {
+  margin-top: 73px;
+}
+
+.navigation-menu__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navigation-menu__title {
+  font-size: 40px;
+  color: #2a2b2a;
+  padding-top: 20px;
+  width: 386px;
+  height: 88px;
+  text-align: center;
+  border: 2px solid #2a2b2a;
+}
+
+.navigation-menu__title h1 {
+  color: #2A3D45;
+}
+
+.navigation-menu__title:hover {
+  background-color: #93C8AA;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-menu__title:hover h1 {
+  color: #2A3D45;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-menu__title:active {
+  background-color: #EE9344;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-menu__title:active h1 {
+  color: #2A3D45;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-menu__links {
+  text-align: center;
+}
+
+.navigation-menu .nav-menu__columns {
+  padding-top: 25px;
+  text-align: center;
+  height: 88px;
+}
+
+.navigation-menu .nav-menu__list {
+  display: inline-block;
+  margin-right: 36px;
+  padding: 9px;
+  border-radius: 5px;
+}
+
+.navigation-menu .nav-menu__list span {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2a3d45;
+}
+
+.navigation-menu .nav-menu__list:hover {
+  background-color: #93C8AA;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-menu .nav-menu__list:hover span {
+  color: #2A3D45;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-menu .nav-menu__list:active {
+  background-color: #ECEDE9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navigation-menu .nav-menu__list:active span {
+  color: #EE9344;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
