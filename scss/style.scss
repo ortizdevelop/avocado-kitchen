@@ -220,6 +220,49 @@ body{
   }
 }
 
+.footer {
+
+  &__row {
+  }
+
+  &__head {
+    margin-bottom: 88px;
+    display: flex;
+    justify-content: space-around;
+    border: $border1;
+  }
+
+  &__head-title {
+  }
+
+  &__head-list {
+  }
+
+  &__head-btn {
+  }
+
+  &__main {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color: $color2;
+    color: $color1;
+    border: $border2;
+  }
+
+  &__main-list1 {
+  }
+
+  &__main-list2 {
+  }
+
+  &__main-btn {
+  }
+
+  &__main-logo {
+  }
+}
+
 .home-content-head {
 
   &__row {
@@ -452,4 +495,5 @@ body{
     }
   }
 }
+
 

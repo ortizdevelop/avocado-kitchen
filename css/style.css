@@ -209,6 +209,28 @@ body .contact {
   transition: 0.4s;
 }
 
+.footer__head {
+  margin-bottom: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid red;
+}
+
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 50px;
+  background-color: #2A3D45;
+  color: #ECEDE9;
+  border: 1px solid blue;
+}
+
 .home-content-head__title {
   font-size: 48px;
   padding-top: 80px;
