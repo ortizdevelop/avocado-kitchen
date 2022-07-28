@@ -209,6 +209,18 @@ body .contact {
   transition: 0.4s;
 }
 
+.footer__image {
+  margin-bottom: 78px;
+}
+
+.footer__image ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .footer__head {
   margin-bottom: 88px;
   display: -webkit-box;
@@ -216,7 +228,75 @@ body .contact {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: 1px solid red;
+}
+
+.footer__head-title {
+  font-size: 32px;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.footer__head-list li {
+  text-align: center;
+  display: inline-block;
+}
+
+.footer__head-list li img {
+  margin-right: 25px;
+}
+
+.footer__head-list .media2 {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.footer__head-list .media3 {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.footer__head-list .media4 {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.footer__head-btn {
+  width: 386px;
+  height: 88px;
+  border: 2px solid #2a2b2a;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer__head-btn span {
+  font-size: 40px;
+  color: #2a2b2a;
+}
+
+.footer__head-btn:hover {
+  background-color: #93C8AA;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__head-btn:hover span {
+  color: #2A3D45;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__head-btn:active {
+  background-color: #EE9344;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__head-btn:active span {
+  color: #2A3D45;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .footer__main {
@@ -228,7 +308,117 @@ body .contact {
   margin-bottom: 50px;
   background-color: #2A3D45;
   color: #ECEDE9;
-  border: 1px solid blue;
+  padding-bottom: 50px;
+}
+
+.footer__main-list1 {
+  margin-top: 43px;
+  font-size: 22px;
+  color: #ecede9;
+}
+
+.footer__main-list1 li {
+  margin-bottom: 8px;
+}
+
+.footer__main-list1 li:hover span {
+  color: #EE9344;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__main-list1 li:active span {
+  color: #EE9344;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__main-list1 span {
+  color: #ecede9;
+}
+
+.footer__main-list2 {
+  margin-top: 33px;
+  font-size: 19px;
+  color: #ecede9;
+}
+
+.footer__main-list2 li {
+  margin-bottom: 12px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.footer__main-list2 li:hover {
+  background-color: #93C8AA;
+  color: #2A3D45;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__main-list2 li:hover span {
+  color: #2A3D45;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__main-list2 li:active {
+  background-color: #EE9344;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__main-list2 span {
+  color: #ECEDE9;
+}
+
+.footer__main-btn {
+  width: 386px;
+  height: 88px;
+  border: 2px solid #ecede9;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  -webkit-transform: translate(230px, 50px);
+          transform: translate(230px, 50px);
+}
+
+.footer__main-btn span {
+  color: #ecede9;
+}
+
+.footer__main-btn:hover {
+  background-color: #EE9344;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__main-btn:hover span {
+  color: #2A3D45;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__main-btn:active {
+  background-color: #93C8AA;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__main-btn:active span {
+  color: #2A3D45;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer__main-logo {
+  -webkit-transform: translate(-600px, 50px);
+          transform: translate(-600px, 50px);
+}
+
+.footer__main-logo img {
+  width: 100px;
+  height: 100px;
 }
 
 .home-content-head__title {
@@ -476,6 +666,8 @@ body .contact {
 .home-content-bottom__buttons p:hover {
   background-color: rgba(147, 200, 170, 0.75);
   color: #2A3D45;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .home-content-bottom__text {

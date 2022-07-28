@@ -225,20 +225,84 @@ body{
   &__row {
   }
 
+  &__image{
+    margin-bottom: 78px;
+
+    ul{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
   &__head {
     margin-bottom: 88px;
     display: flex;
     justify-content: space-around;
-    border: $border1;
   }
 
   &__head-title {
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    padding-top: 20px;
   }
 
   &__head-list {
+
+    li{
+      text-align: center;
+      display: inline-block;
+
+      img{
+        margin-right: 25px;
+      }
+    }
+
+    .media1 {
+    }
+    .media2 {
+      transform: translateY(5px);
+    }
+    .media3 {
+      transform: translateY(-7px);
+    }
+    .media4 {
+      transform: translateY(5px);
+    }    
   }
 
   &__head-btn {
+    width: 386px;
+    height: 88px;
+    border: 2px solid #2a2b2a;
+    text-align: center;
+    padding-top: 20px;
+
+    span{
+      font-size: 40px;
+      color: #2a2b2a;
+    }
+
+    &:hover{
+      background-color: $color3;
+      transition: 0.4s;
+
+      span{
+        color: $color2;
+        transition: 0.4s;
+      }
+    }
+
+    &:active{
+      background-color: $color4;
+      transition: 0.4s;
+
+      span{
+        color: $color2;
+        transition: 0.4s;   
+      }
+    }
   }
 
   &__main {
@@ -247,19 +311,114 @@ body{
     margin-bottom: 50px;
     background-color: $color2;
     color: $color1;
-    border: $border2;
+    padding-bottom: 50px;
   }
 
   &__main-list1 {
+    margin-top: 43px;
+    font-size: 22px;
+    color: #ecede9;
+
+    li{
+      margin-bottom: 8px;
+
+      &:hover{
+        span{
+          color: $color4;
+          transition: 0.4s;
+        }
+      }
+
+      &:active{
+        span{
+          color: $color4;
+          transition: 0.4s;
+        }
+      }
+    }
+
+    span{
+      color: #ecede9;
+    }
+
+    
   }
 
   &__main-list2 {
+    margin-top: 33px;
+    font-size: 19px;
+    color: #ecede9;
+
+    li{
+      margin-bottom: 12px;
+      padding: 5px;
+      border-radius: 7px;
+
+      &:hover{
+        background-color: $color3;
+        color: $color2;
+        transition: 0.3s;
+
+        span{
+          color: $color2;
+          transition: 0.3s;
+        }
+      }
+
+      &:active{
+        background-color: $color4;
+        transition: 0.3s;
+      }
+    }
+
+    span{
+      color: $color1;
+    }
+
+      
   }
 
   &__main-btn {
+    width: 386px;
+    height: 88px;
+    border: 2px solid #ecede9;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    transform: translate(230px, 50px);
+    
+    span{
+      color: #ecede9;
+    }
+
+    &:hover{
+      background-color: $color4;
+      transition: 0.4s;
+
+      span{
+        color: $color2;
+        transition: 0.4s;
+      }
+    }
+
+    &:active{
+      background-color: $color3;
+      transition: 0.4s;
+
+      span{
+        color: $color2;
+        transition: 0.4s;
+      }
+    }
   }
 
   &__main-logo {
+    transform: translate(-600px,50px);
+
+    img{
+      width: 100px;
+      height: 100px;
+    }
   }
 }
 
@@ -473,6 +632,7 @@ body{
       &:hover{
         background-color: rgba(147, 200, 170, 0.75);;
         color: $color2;
+        transition: 0.3s;
       }
     }
   }
