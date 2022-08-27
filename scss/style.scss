@@ -125,7 +125,8 @@ body{
 }
 
 .navigation-menu {
-  margin-top: 73px; 
+  margin-top: 73px;
+  margin-bottom: 105px; 
 
   &__row {
     display: flex;
@@ -422,6 +423,10 @@ body{
   }
 }
 
+.footer__about{
+  transform: translateY(-1000px);
+}
+
 .home-content-head {
 
   &__row {
@@ -652,6 +657,108 @@ body{
     p{
       font-size: 28px;
       color: #2a3d45;
+    }
+  }
+}
+
+.about-head {
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__image {
+  }
+
+  &__title {
+    font-size: 48px;
+    color: #2a3d45;
+    height: 317px;
+    width: 500px;
+    left: 1160px;
+    top: 310px;
+    font-weight: 800;
+    transform: translate(880px,-1100px);
+    margin-left: 67px;
+    padding-top: 55px;
+    background: url('/assets/img/about/main/text-bg.png') no-repeat;
+  }
+
+  &__subtitle {
+    font-size: 32px;
+    color: #2a3d45;
+    height: 728px;
+    width: 580px;
+    left: 1158px;
+    top: 605px;
+    transform: translate(880px,-1100px);
+    margin-left: 67px;    
+  }
+}
+.about-main {
+  margin-bottom: 128px;
+
+  &__row {
+    display: flex;
+    transform: translateY(-1000px);
+  }
+
+  &__text {
+    font-size: 36px;
+    color: #2a3d45;
+    height: 628px;
+    width: 883px;
+    left: 227px;
+    top: 1424px;    
+  }
+
+  &__image {
+  }
+}
+.about-bottom {
+  margin-bottom: 103px;
+  text-align: center;
+
+  &__row {
+    transform: translateY(-1000px);
+  }
+
+  &__title {
+    font-size: 56px;
+    text-align: right;
+    color: #2a3d45;
+    height: 399px;
+    width: 676px;
+    left: 589px;
+    top: 2355px;
+    font-weight: 800;
+    transform: translate(390px,-40px);
+    padding-top: 60px;
+    background: url('/assets/img/about/main/text-bg-1.png') no-repeat;
+  }
+
+  &__link {
+    width: 650px;
+    height: 111px;
+    background-color: $color2;
+    transform: translateX(390px);
+    padding-top: 30px;
+    font-weight: 800;
+
+    span{
+      font-size: 48px;
+      color: $color3;
+    }
+
+    &:active{
+      background-color: $color3;
+      transition: 0.2s;
+
+      span{
+        color: $color2;
+        transition: 0.2s;
+      }
     }
   }
 }
