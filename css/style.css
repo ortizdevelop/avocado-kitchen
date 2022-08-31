@@ -96,7 +96,7 @@ body .recepies {
   top: -356px;
 }
 body .contact {
-  height: 3105px;
+  height: 1505px;
   width: 1920px;
   left: 5737px;
   top: -353px;
@@ -871,4 +871,18 @@ body .contact {
   transition: 0.4s;
   color: #2A3D45;
   opacity: 40%;
+}
+
+.contact .container {
+  border: 1px solid red;
+  position: absolute;
+  width: 1514px;
+  height: 1206px;
+  left: 212px;
+  top: 363px;
+  background-color: #2A3D45;
+}
+.contact__body {
+  border: 1px solid blue;
+  padding: 94.11px 128px 118.07px 141px;
 }

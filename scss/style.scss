@@ -112,7 +112,7 @@ body{
   }
 
   .contact{
-    height: 3105px;
+    height: 1505px;
     width: 1920px;
     left: 5737px;
     top: -353px;    
@@ -1063,3 +1063,40 @@ body{
     }
   }
 }
+
+.content-contact{
+  footer{
+  }
+}
+
+.contact {
+
+  .container {
+    border: $border1;
+    position: absolute;
+    width: 1514px;
+    height: 1206px;
+    left: 212px;
+    top: 363px;
+    background-color: $color2;
+  }
+
+  &__body{
+    border: $border2;
+    padding: 94.11px 128px 118.07px 141px;
+  }
+
+  &__name {
+  }
+
+  &__mail {
+  }
+
+  &__text {
+  }
+
+  &__btn {
+  }
+}
+
+
