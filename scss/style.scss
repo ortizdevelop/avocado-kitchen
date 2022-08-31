@@ -766,6 +766,18 @@ body{
 .recepies-title {
 
   &__row {
+    background: url('/assets/img/recepies/recepies-title/lines.png') 830px 0px no-repeat;
+    padding-top: 31px;
+    padding-bottom: 161px;
+    padding-right: 300px;
+  }
+
+  h1{
+    font-size: 64px;
+    text-align: center;
+    color: #2a3d45;
+    font-weight: 800;
+    line-height: 81px;
   }
 }
 .recepies-main {
@@ -777,33 +789,122 @@ body{
   }
 
   &__top-text {
+    font-size: 32px;
+    color: #2a3d45;
+    position: absolute;
+    width: 793px;
+    height: 728px;
+    left: 110px;
+    top: 685px;
+    
   }
 
   &__top-column {
+    position: absolute;
+    width: 787px;
+    height: 884px;
+    left: 109px;
+    top: 1110px;
   }
 
   &__top-list {
+      list-style: none;
+      margin-bottom: 24px;
+      padding-bottom: 11px;
+      width: 370px;
+
+      p{
+        width: 785px;
+        font-size: 32px;
+        color: #2a3d45;
+      }
+
+      span{
+        padding-left: 550px;
+      }
+      
+      &:nth-child(odd){
+        border-bottom: 7px solid $color4;
+      }
+
+      &:nth-child(even){
+        border-bottom: 7px solid $color3;
+      }
   }
 
   &__top-btn {
+    position: absolute;
+    width: 650px;
+    height: 111px;
+    left: 182px;
+    top: 938px;
+      
+    a{
+      
+      span{
+        background-color: $color4;
+        padding: 25px 161px;
+        font-size: 48px;
+        color: #2a3d45;
+
+        &:hover{
+          background-color: $color3;
+          color: $color1;
+          transition: 0.4s;
+        }
+
+        &:active{
+          background-color: $color2;
+          color: $color4;
+          transition: 0.4s;
+        }
+      }
+
+      
+    }
   }
 
   &__top-right {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 801px;
+    height: 879px;
+    left: 1033px;
+    top: 685px;
   }
 
   &__bottom {
   }
 
   &__bottom-left {
+    position: absolute;
+    width: 839px;
+    height: 1130px;
+    left: 87px;
+    top: 2108px;
   }
 
   &__bottom-image {
+      
   }
 
   &__bottom-right {
+    position: absolute;
+    width: 793px;
+    height: 1506px;
+    left: 1041px;
+    top: 1675px;
+    
   }
 
   &__bottom-text {
+    font-size: 32px;
+    color: #2a3d45;
+
+    p + p{
+      margin-top: 50px;
+    }
   }
 }
 .container {
@@ -811,17 +912,154 @@ body{
 .recepies-bottom {
 
   &__header {
+    position: absolute;
+    width: 1766px;
+    height: 588px;
+    left: 87px;
+    top: 3412px;    
   }
 
   &__arrows {
+    position: absolute;
+    width: 1507px;
+    height: 244px;
+    left: 208px;
+    top: 4096px;
   }
 
   &__mail {
+    border: $border1;
+    position: absolute;
+    width: 1514px;
+    height: 344px;
+    left: 213px;
+    top: 4634px;
+
+    padding-top: 98px;
+    text-align: center;
+    background-color: $color2;
+
+    p{
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      color: #93c8aa;
+      margin-bottom: 26px;
+    }
+
+    input{
+      width: 646px;
+      height: 75px;
+      background-color: #ecede9;
+      transform: translateX(-180px);
+      
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: right;
+
+      color: rgba(0, 0, 0, 0.4);
+
+      &::placeholder{
+        position: absolute;
+        width: 616px;
+        height: 60px;
+        padding-top: 18px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: right;
+
+        color: rgba(0, 0, 0, 0.4);
+      }
+    }
+
+    a{
+      span{
+        position: absolute;
+        width: 309px;
+        height: 75px;
+        padding: 7px 52px 7px 50px;
+
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 61px;
+        color: #2a3d45;
+        background-color: $color4;
+
+        transform: translateX(-180px);
+
+        &:active{
+          background-color: $color3;
+          transition: 0.4s;
+        }
+      }
+    }
   }
 
   &__column {
+    position: absolute;
+    width: 1582px;
+    height: 494px;
+    left: 208px;
+    top: 5125px;
+    
+    li{
+      display: inline-block;
+    }
   }
 
   &__list {
+    padding-right: 26px;
+  }
+
+  &__link{
+    transform: translate(100px, -60px);
+
+    width: 277px;
+    height: 167px;
+    background: rgba(238, 147, 68, 0.75);
+    text-align: center;
+
+    p{
+      width: 121px;
+      height: 102px;
+      padding-left: 80px;
+      padding-top: 25px;
+    }
+
+    span{
+      
+      font-size: 48px;
+      color: #ecede9;
+      line-height: 61px;
+      font-weight: 800;
+    }
+
+    &:active{
+      transition: 0.4s;
+      background: rgba(147, 200, 170, 0.75);
+
+      span{
+        transition: 0.4s;
+        color: #2A3D45;
+        opacity: 40%;
+      }
+    }
+  }
+}
+
+.recepies{
+  footer{
+    position: absolute;
+    width: 1516px;
+    height: 449px;
+    left: 161px;
+    top: 5721px;
+    
   }
 }
