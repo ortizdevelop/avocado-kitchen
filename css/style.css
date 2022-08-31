@@ -624,6 +624,14 @@ body .contact {
   transition: 0.2s;
 }
 
+.recepies footer {
+  position: absolute;
+  width: 1516px;
+  height: 449px;
+  left: 161px;
+  top: 5721px;
+}
+
 .recepies-title__row {
   background: url("/assets/img/recepies/recepies-title/lines.png") 830px 0px no-repeat;
   padding-top: 31px;
@@ -863,12 +871,4 @@ body .contact {
   transition: 0.4s;
   color: #2A3D45;
   opacity: 40%;
-}
-
-.recepies footer {
-  position: absolute;
-  width: 1516px;
-  height: 449px;
-  left: 161px;
-  top: 5721px;
 }

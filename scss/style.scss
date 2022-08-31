@@ -763,6 +763,17 @@ body{
   }
 }
 
+.recepies{
+  footer{
+    position: absolute;
+    width: 1516px;
+    height: 449px;
+    left: 161px;
+    top: 5721px;
+    
+  }
+}
+
 .recepies-title {
 
   &__row {
@@ -1050,16 +1061,5 @@ body{
         opacity: 40%;
       }
     }
-  }
-}
-
-.recepies{
-  footer{
-    position: absolute;
-    width: 1516px;
-    height: 449px;
-    left: 161px;
-    top: 5721px;
-    
   }
 }
