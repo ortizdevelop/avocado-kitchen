@@ -1072,7 +1072,6 @@ body{
 .contact {
 
   .container {
-    border: $border1;
     position: absolute;
     width: 1514px;
     height: 1206px;
@@ -1082,20 +1081,157 @@ body{
   }
 
   &__body{
-    border: $border2;
     padding: 94.11px 128px 118.07px 141px;
   }
 
   &__name {
+    margin-bottom: 45.35px;
+    
+    a{
+      position: absolute;
+      width: 311px;
+      height: 64.17px;
+      background: #EE9344;
+
+      span{
+        position: relative;
+        top: 6px;
+        left: 50px;
+        font-size: 48px;
+        font-weight: 800;
+        color: #2a3d45;
+      }
+
+      &:hover{
+        transition: 0.4s;
+        background: $color3;
+      }
+    }
+
+    input{
+      width: 458px;
+      height: 64.17px;
+      background-color: #ecede9;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: right;
+
+      color: rgba(0, 0, 0, 0.4);
+
+      &::placeholder{
+        font-size: 32px;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 600;
+        padding-right: 19px;
+      }
+    }
   }
 
   &__mail {
+    margin-bottom: 45.35px;
+
+    a{
+      position: absolute;
+      width: 311px;
+      height: 64.17px;
+      background: #EE9344;
+
+      span{
+        position: relative;
+        top: 6px;
+        left: 50px;
+        font-size: 48px;
+        font-weight: 800;
+        color: #2a3d45;
+      }
+
+      &:hover{
+        transition: 0.4s;
+        background: $color3;
+      }
+    }
+
+    input{
+      width: 458px;
+      height: 64.17px;
+      background-color: #ecede9;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: right;
+
+      color: rgba(0, 0, 0, 0.4);
+
+      &::placeholder{
+        font-size: 32px;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 600;
+        padding-right: 19px;
+      }
+    }
   }
 
   &__text {
+    margin-bottom: 57.32px;
+    position: absolute;
+    width: 1245px;
+    height: 1153.3px;
+    
+
+    textarea{
+      width: 1245px;
+      height: 600px;
+      background-color: #ecede9;
+      resize: none;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      padding-bottom: 540px;
+      padding-left: 20px;
+
+      color: rgba(0, 0, 0, 0.4);
+
+      &::placeholder{
+        opacity: 50%; 
+      }
+    }
   }
 
   &__btn {
+    position: absolute;
+    width: 311px;
+    height: 64.17px;
+    top: 1000px;
+    left: 600px;
+
+    a{
+      position: absolute;
+      width: 311px;
+      height: 64.17px;
+      background: #93C8AA;
+      text-align: center;
+
+      span{
+        font-size: 48px;
+        color: #2a3d45;
+        line-height: 61px;
+        font-weight: bold;
+      }
+
+      &:hover{
+        transition: 0.2s;
+        background-color: $color4;
+      }
+    }
   }
 }
 
