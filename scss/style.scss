@@ -1128,6 +1128,11 @@ body{
         font-weight: 600;
         padding-right: 19px;
       }
+
+      &:focus{
+        transition: 0.3s;
+        border: 3px solid $color4;
+      }
     }
   }
 
@@ -1175,6 +1180,11 @@ body{
         font-weight: 600;
         padding-right: 19px;
       }
+
+      &:focus{
+        transition: 0.3s;
+        border: 3px solid $color4;
+      }
     }
   }
 
@@ -1201,7 +1211,12 @@ body{
       color: rgba(0, 0, 0, 0.4);
 
       &::placeholder{
-        opacity: 50%; 
+        opacity: 50%;
+      }
+      
+      &:focus{
+        transition: 0.3s;
+        border: 3px solid $color4;
       }
     }
   }
@@ -1230,6 +1245,10 @@ body{
       &:hover{
         transition: 0.2s;
         background-color: $color4;
+      }
+
+      &:active{
+        border-radius: 15px;
       }
     }
   }

@@ -937,6 +937,10 @@ body .contact {
   font-weight: 600;
   padding-right: 19px;
 }
+.contact__name input:focus {
+  transition: 0.3s;
+  border: 3px solid #EE9344;
+}
 .contact__mail {
   margin-bottom: 45.35px;
 }
@@ -990,6 +994,10 @@ body .contact {
   font-weight: 600;
   padding-right: 19px;
 }
+.contact__mail input:focus {
+  transition: 0.3s;
+  border: 3px solid #EE9344;
+}
 .contact__text {
   margin-bottom: 57.32px;
   position: absolute;
@@ -1018,6 +1026,10 @@ body .contact {
 .contact__text textarea::placeholder {
   opacity: 50%;
 }
+.contact__text textarea:focus {
+  transition: 0.3s;
+  border: 3px solid #EE9344;
+}
 .contact__btn {
   position: absolute;
   width: 311px;
@@ -1041,4 +1053,7 @@ body .contact {
 .contact__btn a:hover {
   transition: 0.2s;
   background-color: #EE9344;
+}
+.contact__btn a:active {
+  border-radius: 15px;
 }
