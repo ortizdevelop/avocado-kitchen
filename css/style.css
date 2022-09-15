@@ -937,6 +937,10 @@ body .contact {
   font-weight: 600;
   padding-right: 19px;
 }
+.contact__name input:focus {
+  transition: 0.3s;
+  border: 3px solid #EE9344;
+}
 .contact__mail {
   margin-bottom: 45.35px;
 }
@@ -989,6 +993,10 @@ body .contact {
   color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
   padding-right: 19px;
+}
+.contact__mail input:focus {
+  transition: 0.3s;
+  border: 3px solid #EE9344;
 }
 .contact__text {
   margin-bottom: 57.32px;

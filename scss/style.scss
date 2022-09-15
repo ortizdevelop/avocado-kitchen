@@ -1128,6 +1128,11 @@ body{
         font-weight: 600;
         padding-right: 19px;
       }
+
+      &:focus{
+        transition: 0.3s;
+        border: 3px solid $color4;
+      }
     }
   }
 
@@ -1174,6 +1179,11 @@ body{
         color: rgba(0, 0, 0, 0.4);
         font-weight: 600;
         padding-right: 19px;
+      }
+
+      &:focus{
+        transition: 0.3s;
+        border: 3px solid $color4;
       }
     }
   }
