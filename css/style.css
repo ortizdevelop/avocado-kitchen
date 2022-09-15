@@ -1019,6 +1019,7 @@ body .contact {
   opacity: 50%;
 }
 .contact__text textarea:focus {
+  transition: 0.3s;
   border: 3px solid #EE9344;
 }
 .contact__btn {

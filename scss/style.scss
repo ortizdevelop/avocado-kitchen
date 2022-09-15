@@ -1205,6 +1205,7 @@ body{
       }
       
       &:focus{
+        transition: 0.3s;
         border: 3px solid $color4;
       }
     }
