@@ -1018,6 +1018,9 @@ body .contact {
 .contact__text textarea::placeholder {
   opacity: 50%;
 }
+.contact__text textarea:focus {
+  border: 3px solid #EE9344;
+}
 .contact__btn {
   position: absolute;
   width: 311px;

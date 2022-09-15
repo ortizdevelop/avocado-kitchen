@@ -1201,7 +1201,11 @@ body{
       color: rgba(0, 0, 0, 0.4);
 
       &::placeholder{
-        opacity: 50%; 
+        opacity: 50%;
+      }
+      
+      &:focus{
+        border: 3px solid $color4;
       }
     }
   }
