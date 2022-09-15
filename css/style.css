@@ -1045,3 +1045,6 @@ body .contact {
   transition: 0.2s;
   background-color: #EE9344;
 }
+.contact__btn a:active {
+  border-radius: 15px;
+}

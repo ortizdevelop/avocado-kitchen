@@ -1235,6 +1235,10 @@ body{
         transition: 0.2s;
         background-color: $color4;
       }
+
+      &:active{
+        border-radius: 15px;
+      }
     }
   }
 }
